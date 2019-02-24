@@ -22,8 +22,6 @@ module.exports = function(){
     .include('models')
     .then('controllers')
     .then('routes')
-    .into(app);
-
-  
+    .into(app);  
     return app;
 };
